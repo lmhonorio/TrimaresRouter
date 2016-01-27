@@ -98,14 +98,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.bt_exotest = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.exogridControl = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gb_robot = new System.Windows.Forms.GroupBox();
             this.cbCType = new System.Windows.Forms.ComboBox();
             this.bt_conectar = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.exoGridView = new System.Windows.Forms.DataGridView();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -117,10 +116,9 @@
             this.tabPage3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.exogridControl)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             this.gb_robot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
@@ -770,7 +768,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.exogridControl);
+            this.tabPage2.Controls.Add(this.exoGridView);
             this.tabPage2.Controls.Add(this.gb_robot);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -779,22 +777,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Trimares";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // exogridControl
-            // 
-            this.exogridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.exogridControl.Location = new System.Drawing.Point(3, 3);
-            this.exogridControl.MainView = this.gridView1;
-            this.exogridControl.Name = "exogridControl";
-            this.exogridControl.Size = new System.Drawing.Size(706, 394);
-            this.exogridControl.TabIndex = 25;
-            this.exogridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
-            // 
-            // gridView1
-            // 
-            this.gridView1.GridControl = this.exogridControl;
-            this.gridView1.Name = "gridView1";
             // 
             // gb_robot
             // 
@@ -838,6 +820,14 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
+            // exoGridView
+            // 
+            this.exoGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.exoGridView.Location = new System.Drawing.Point(6, 6);
+            this.exoGridView.Name = "exoGridView";
+            this.exoGridView.Size = new System.Drawing.Size(698, 359);
+            this.exoGridView.TabIndex = 26;
+            // 
             // MsgRouter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -867,10 +857,9 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.exogridControl)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             this.gb_robot.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -911,8 +900,6 @@
         private System.Windows.Forms.GroupBox gb_simulador;
         private System.Windows.Forms.TextBox tx_APcomport;
         private System.Windows.Forms.Button bt_connArdupilot;
-        private DevExpress.XtraGrid.GridControl exogridControl;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button bt_sendExoTest;
@@ -953,6 +940,7 @@
         private System.Windows.Forms.Button bt_ExoMonitor;
         private System.Windows.Forms.TextBox tx_ExoPort;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.DataGridView exoGridView;
     }
 }
 

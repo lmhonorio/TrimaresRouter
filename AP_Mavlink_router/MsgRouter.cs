@@ -267,7 +267,8 @@ namespace AP_Mavlink_router
 
                 this.Invoke((MethodInvoker)delegate 
                 {
-                    exogridControl.DataSource = source;
+                    exoGridView.DataSource = source;
+                    //exogridControl.DataSource = source;
                 });
                // exogridControl.DataSource = source;
 
