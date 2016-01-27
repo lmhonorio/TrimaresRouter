@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MAVcomm.MAVLink">
+    <Position X="2.5" Y="1" Width="4.75" />
+    <NestedTypes>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_clear_all_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_optical_flow_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_quad_motors_setpoint_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_vicon_position_estimate_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_global_position_int_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_global_position_setpoint_int_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_safety_allowed_area_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.LIMIT_MODULE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_request_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_raw_pressure_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_debug_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_wind_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.LIMITS_STATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MAVcomm.MAVLink.MAV_ROI" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_request_list_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_mode_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_state_correction_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_MISSION_RESULT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_fence_fetch_point_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_memory_vect_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_param_value_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_hil_state_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_digicam_configure_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_system_time_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_fence_status_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_manual_control_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_hil_rc_inputs_raw_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_FRAME" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_param_set_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_GOTO" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MAVcomm.MAVLink.MAV_MOUNT_MODE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_meminfo_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_command_ack_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_MODE_FLAG_DECODE_POSITION" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_write_partial_list_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_sensor_offsets_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_hil_controls_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_roll_pitch_yaw_thrust_setpoint_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_ack_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_gps_global_origin_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_gps_global_origin_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_gps_raw_int_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.FENCE_ACTION" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_scaled_imu_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_request_data_stream_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_rc_channels_override_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_MODE_FLAG" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mount_configure_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mount_status_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_ahrs_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_hwstatus_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_raw_imu_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_heartbeat_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mount_control_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_sys_status_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_digicam_control_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_named_value_int_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_CMD" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_roll_pitch_yaw_speed_thrust_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_statustext_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_gps_status_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAVLINK_DATA_STREAM_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_fence_point_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_RESULT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_named_value_float_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_nav_controller_output_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_global_position_setpoint_int_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_radio_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_scaled_pressure_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Delegate Name="MAVcomm.MAVLink.pkgIn" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLink.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Struct Name="MAVcomm.MAVLink.mavlink_global_vision_position_estimate_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_vision_position_estimate_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_attitude_quaternion_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_rc_channels_raw_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_local_position_ned_system_global_offset_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_param_request_read_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_item_reached_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.FENCE_BREACH" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_auth_key_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_set_current_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_MODE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_local_position_setpoint_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_request_partial_list_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_data_stream_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_AUTOPILOT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_item_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_param_request_list_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_SEVERITY" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_limits_status_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_safety_set_allowed_area_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_quad_swarm_roll_pitch_yaw_thrust_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_PARAM_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_ping_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_count_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_STATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_command_long_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_debug_vect_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_attitude_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Class Name="MAVcomm.MAVLink.MAVState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLink.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Struct Name="MAVcomm.MAVLink.mavlink_local_position_ned_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_simstate_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_servo_output_raw_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_mag_offsets_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_mission_current_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_roll_pitch_yaw_speed_thrust_setpoint_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_COMPONENT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="MAVcomm.MAVLink.MAV_CMD_ACK" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_rc_channels_scaled_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_change_operator_control_ack_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_local_position_setpoint_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_data_transmission_handshake_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_encapsulated_data_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_quad_swarm_led_roll_pitch_yaw_thrust_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_ap_adc_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Enum Name="MAVcomm.MAVLink.MAV_DATA_STREAM" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="MAVcomm.MAVLink.mavlink_set_roll_pitch_yaw_thrust_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_change_operator_control_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_vfr_hud_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="MAVcomm.MAVLink.mavlink_vision_speed_estimate_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Mavlink\MAVLinkTypes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>hWtLCR1ndnj7f+es7/qcDB1n0/R9oHxGL9zpG/vm+co=</HashCode>
+      <FileName>Mavlink\MAVLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

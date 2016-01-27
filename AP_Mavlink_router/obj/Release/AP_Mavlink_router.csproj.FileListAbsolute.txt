@@ -1,0 +1,107 @@
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\AP_Mavlink_router.exe.config
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\AP_Mavlink_router.exe
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\AP_Mavlink_router.pdb
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\GMap.NET.Core.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\GMap.NET.WindowsForms.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\log4net.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\SharpKml.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Interfaces.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.PlatformServices.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Providers.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Windows.Forms.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Windows.Threading.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Data.SQLite.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\Ionic.Zip.Reduced.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Core.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Linq.dll
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Interfaces.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.PlatformServices.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Providers.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Windows.Forms.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Windows.Threading.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Core.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\bin\Release\System.Reactive.Linq.xml
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\ArdupilotMega.Controls.ConnectionControl.resources
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\ArdupilotMega.Controls.ConnectionStats.resources
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Controls.ProgressReporterDialogue.resources
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Form1.resources
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Properties.Resources.resources
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.csproj.GenerateResource.Cache
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.exe
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.pdb
+C:\Users\usuario\Dropbox\Projetos\vaant\SISTEMAS COMPUTACIONAIS\AP_Mavlink_Router\AP_Mavlink_router\obj\Release\AP_Mavlink_router.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\AP_Mavlink_router.exe.config
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.exe
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.pdb
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\AP_Mavlink_router.exe
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\AP_Mavlink_router.pdb
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\GMap.NET.Core.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\GMap.NET.WindowsForms.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\SharpKml.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\System.Reactive.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\System.Reactive.Windows.Threading.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\System.Data.SQLite.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\Ionic.Zip.Reduced.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\System.Reactive.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\System.Reactive.Windows.Threading.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\MAVcomm.Controls.ConnectionControl.resources
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\MAVcomm.Controls.ConnectionStats.resources
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Controls.ProgressReporterDialogue.resources
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Properties.Resources.resources
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.csproj.GenerateResource.Cache
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\AP_Mavlink_router.exe.config
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.exe
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\AP_Mavlink_router.exe
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\AP_Mavlink_router.pdb
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\GMap.NET.Core.dll
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\GMap.NET.WindowsForms.dll
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\SharpKml.dll
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\System.Data.SQLite.dll
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\Ionic.Zip.Reduced.dll
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\MAVcomm.Controls.ConnectionControl.resources
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\MAVcomm.Controls.ConnectionStats.resources
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Controls.ProgressReporterDialogue.resources
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Form1.resources
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.Properties.Resources.resources
+C:\Users\LEONARDO\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.csproj.GenerateResource.Cache
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\Trimares\trimares.sxs
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\Trimares\trimares.sxs
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.Data.v11.2.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.Printing.v11.2.Core.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.Utils.v11.2.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.XtraEditors.v11.2.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.XtraGrid.v11.2.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.XtraLayout.v11.2.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.Data.v11.2.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.Printing.v11.2.Core.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.Utils.v11.2.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.XtraEditors.v11.2.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.XtraGrid.v11.2.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\DevExpress.XtraLayout.v11.2.xml
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\de\DevExpress.Data.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\es\DevExpress.Data.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ja\DevExpress.Data.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ru\DevExpress.Data.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ja\DevExpress.Printing.v11.2.Core.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\de\DevExpress.Utils.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\es\DevExpress.Utils.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ja\DevExpress.Utils.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ru\DevExpress.Utils.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\de\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\es\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ja\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ru\DevExpress.XtraEditors.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\de\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\es\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ja\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ru\DevExpress.XtraGrid.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\de\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\es\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ja\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\Release\ru\DevExpress.XtraLayout.v11.2.resources.dll
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.MsgRouter.resources
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Release\AP_Mavlink_router.exe.licenses

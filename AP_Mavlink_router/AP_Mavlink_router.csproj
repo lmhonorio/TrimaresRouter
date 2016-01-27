@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AED751A0-4EA6-43ED-B490-47D5675ED6ED}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AP_Mavlink_router</RootNamespace>
+    <AssemblyName>AP_Mavlink_router</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>edp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AP_Mavlink_router.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v11.2, Version=11.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v11.2.Core, Version=11.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v11.2, Version=11.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v11.2, Version=11.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v11.2, Version=11.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v11.2, Version=11.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>Lib\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>Lib\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>Lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpKml">
+      <HintPath>Lib\SharpKml.dll</HintPath>
+      <Aliases>sharp</Aliases>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Reactive, Version=1.0.10621.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Reactive.Interfaces, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Reactive.PlatformServices, Version=2.0.20304.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Reactive.Providers, Version=2.0.20304.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Reactive.Windows.Forms, Version=2.0.20304.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Reactive.Windows.Threading, Version=1.0.10621.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arduino\MavComms.cs" />
+    <Compile Include="Arduino\MavLinkConnection.cs" />
+    <Compile Include="Arduino\ArduinoDetect.cs" />
+    <Compile Include="Arduino\ArduinoSTK.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Arduino\ArduinoSTKv2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Attributes\DisplayTextAttribute.cs" />
+    <Compile Include="Attributes\PrivateAttribute.cs" />
+    <Compile Include="Comms\BaseFiles\Common.cs" />
+    <Compile Include="Comms\BaseFiles\CommsBase.cs" />
+    <Compile Include="Comms\BaseFiles\CommsFile.cs" />
+    <Compile Include="Comms\CommsSerialInterface.cs" />
+    <Compile Include="Comms\CommsSerialPort.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Comms\TCP\CommsTCPSerial.cs" />
+    <Compile Include="Comms\TCP\CommsTCPSerialServer.cs" />
+    <Compile Include="Comms\UDP\CommsUdpSerial.cs" />
+    <Compile Include="Comms\UDP\CommsUdpSerialServer.cs" />
+    <Compile Include="Comms\BaseFiles\MainCrossData.cs" />
+    <Compile Include="Controls\ConnectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConnectionControl.designer.cs">
+      <DependentUpon>ConnectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConnectionStats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConnectionStats.designer.cs">
+      <DependentUpon>ConnectionStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProgressReporterDialogue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\ProgressReporterDialogue.designer.cs" />
+    <Compile Include="CurrentState.cs" />
+    <Compile Include="ExoSensor\ExoReading.cs" />
+    <Compile Include="ExoSensor\exo_waterquality.cs" />
+    <Compile Include="MsgRouter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsgRouter.Designer.cs">
+      <DependentUpon>MsgRouter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mavlink\MAVLink.cs" />
+    <Compile Include="Mavlink\MavlinkCRC.cs" />
+    <Compile Include="Mavlink\MAVLinkTypes.cs" />
+    <Compile Include="Mavlink\MavlinkUtil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sonar\sonarcomm.cs" />
+    <Compile Include="Trimares\clsTrimaresMsg.cs" />
+    <Compile Include="Trimares\swatch.cs" />
+    <Compile Include="Trimares\Trimares_Mavlink.cs" />
+    <Compile Include="Trimares\UDPTrimares.cs" />
+    <Compile Include="Utilities\CollectionExtensions.cs" />
+    <Compile Include="Utilities\EnumTranslator.cs" />
+    <Compile Include="Utilities\NavData.cs" />
+    <Compile Include="Utilities\ParameterMetaDataConstants.cs" />
+    <Compile Include="Utilities\ParameterMetaDataParser.cs" />
+    <Compile Include="Utilities\ParameterMetaDataRepository.cs" />
+    <Compile Include="Utilities\TCPConsole.cs" />
+    <EmbeddedResource Include="Controls\ConnectionControl.resx">
+      <DependentUpon>ConnectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConnectionStats.resx">
+      <DependentUpon>ConnectionStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProgressReporterDialogue.resx" />
+    <EmbeddedResource Include="MsgRouter.resx">
+      <DependentUpon>MsgRouter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Mavlink\ClassDiagram1.cd" />
+    <None Include="Properties\DataSources\ArdupilotMega.CurrentState.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Trimares\trimares.sxs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="edp.ico" />
+    <Content Include="Mavlink\XMLexo.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

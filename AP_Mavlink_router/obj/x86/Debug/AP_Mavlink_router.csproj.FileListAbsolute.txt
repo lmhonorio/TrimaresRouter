@@ -1,0 +1,8 @@
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\bin\x86\Debug\AP_Mavlink_router.exe.config
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\MAVcomm.Controls.ConnectionControl.resources
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\MAVcomm.Controls.ConnectionStats.resources
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\AP_Mavlink_router.Controls.ProgressReporterDialogue.resources
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\AP_Mavlink_router.MsgRouter.resources
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\AP_Mavlink_router.Properties.Resources.resources
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\AP_Mavlink_router.csproj.GenerateResource.Cache
+C:\Users\Leonardo\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\x86\Debug\AP_Mavlink_router.exe.licenses

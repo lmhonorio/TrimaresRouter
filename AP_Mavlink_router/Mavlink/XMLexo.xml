@@ -1,0 +1,18 @@
+﻿<message id="0" name="EXOREADS">
+  <description>send all parameters read from exo1 water quality sensor.</description>
+  <field type="uint64_t" name="id">icroseconds since UNIX epoch or microseconds since system boot</field>
+  <field type="uint32_t" name="time_usec">time stamp</field>
+  <field type="float" name="depth">Depth in the measured position in cm (m*100). If unknown, set to: 65535</field>
+  <field type="float" name="conductivity"> Condutivity measured in microSiemens/centimeter. If unknown, set to: 65535</field>
+  <field type="float" name="temperature">Temperature measured in Celsius. If unknown, set to: 65535</field>
+  <field type="float" name="salinity">Salinity measured in pu. If unknown, set to: 65535</field>
+  <field type="float" name="nLF">Non linear function condutivity. If unknown, set to: 65535</field>
+  <field type="float" name="conductance">Specific conductance. If unknown, set to: 65535</field>
+  <field type="float" name="TDissolvedSolids">Total of dissolved solids. If unknown, set to: 65535</field>
+  <field type="float" name="DissolvedOxygen">Dissolved oxygen. If unknown, set to: 65535</field>
+  <field type="float" name="chloride">Chloride guarded sensor measured in mg/L-CI. If unknown, set to: 65535</field>
+  <field type="float" name="ph"> Ph measured in . If unknown, set to: 65535</field>
+  <field type="float" name="ORP">Oxidizing-reducing potential measured in millivolts. If unknown, set to: 65535</field>
+  <field type="float" name="turbidity">Turbidity measured in formazin nephelometric units, FNU. If unknown, set to: 65535</field>
+  <field type="uint8_t_mavlink_version" name="mavlink_version">MAVLink version</field>
+</message>
