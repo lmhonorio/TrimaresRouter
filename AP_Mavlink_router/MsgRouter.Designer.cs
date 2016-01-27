@@ -105,6 +105,13 @@
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.exoGridView = new System.Windows.Forms.DataGridView();
+            this.tx_voltage = new System.Windows.Forms.TextBox();
+            this.tx_battery_remaining = new System.Windows.Forms.TextBox();
+            this.tx_error_comm = new System.Windows.Forms.TextBox();
+            this.tx_erro_count1 = new System.Windows.Forms.TextBox();
+            this.tx_erro_count2 = new System.Windows.Forms.TextBox();
+            this.tx_erro_count3 = new System.Windows.Forms.TextBox();
+            this.tx_current = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -123,12 +130,11 @@
             // 
             // listBox1
             // 
-            this.listBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(423, 3);
             this.listBox1.MultiColumn = true;
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(286, 394);
+            this.listBox1.Size = new System.Drawing.Size(286, 212);
             this.listBox1.TabIndex = 1;
             // 
             // bt_server
@@ -768,6 +774,13 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.tx_current);
+            this.tabPage2.Controls.Add(this.tx_erro_count3);
+            this.tabPage2.Controls.Add(this.tx_erro_count2);
+            this.tabPage2.Controls.Add(this.tx_erro_count1);
+            this.tabPage2.Controls.Add(this.tx_error_comm);
+            this.tabPage2.Controls.Add(this.tx_battery_remaining);
+            this.tabPage2.Controls.Add(this.tx_voltage);
             this.tabPage2.Controls.Add(this.exoGridView);
             this.tabPage2.Controls.Add(this.gb_robot);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
@@ -825,8 +838,57 @@
             this.exoGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.exoGridView.Location = new System.Drawing.Point(6, 6);
             this.exoGridView.Name = "exoGridView";
-            this.exoGridView.Size = new System.Drawing.Size(698, 359);
+            this.exoGridView.Size = new System.Drawing.Size(698, 262);
             this.exoGridView.TabIndex = 26;
+            // 
+            // tx_voltage
+            // 
+            this.tx_voltage.Location = new System.Drawing.Point(147, 292);
+            this.tx_voltage.Name = "tx_voltage";
+            this.tx_voltage.Size = new System.Drawing.Size(100, 20);
+            this.tx_voltage.TabIndex = 27;
+            // 
+            // tx_battery_remaining
+            // 
+            this.tx_battery_remaining.Location = new System.Drawing.Point(147, 318);
+            this.tx_battery_remaining.Name = "tx_battery_remaining";
+            this.tx_battery_remaining.Size = new System.Drawing.Size(100, 20);
+            this.tx_battery_remaining.TabIndex = 27;
+            // 
+            // tx_error_comm
+            // 
+            this.tx_error_comm.Location = new System.Drawing.Point(329, 293);
+            this.tx_error_comm.Name = "tx_error_comm";
+            this.tx_error_comm.Size = new System.Drawing.Size(100, 20);
+            this.tx_error_comm.TabIndex = 27;
+            // 
+            // tx_erro_count1
+            // 
+            this.tx_erro_count1.Location = new System.Drawing.Point(435, 292);
+            this.tx_erro_count1.Name = "tx_erro_count1";
+            this.tx_erro_count1.Size = new System.Drawing.Size(100, 20);
+            this.tx_erro_count1.TabIndex = 28;
+            // 
+            // tx_erro_count2
+            // 
+            this.tx_erro_count2.Location = new System.Drawing.Point(435, 319);
+            this.tx_erro_count2.Name = "tx_erro_count2";
+            this.tx_erro_count2.Size = new System.Drawing.Size(100, 20);
+            this.tx_erro_count2.TabIndex = 28;
+            // 
+            // tx_erro_count3
+            // 
+            this.tx_erro_count3.Location = new System.Drawing.Point(435, 345);
+            this.tx_erro_count3.Name = "tx_erro_count3";
+            this.tx_erro_count3.Size = new System.Drawing.Size(100, 20);
+            this.tx_erro_count3.TabIndex = 28;
+            // 
+            // tx_current
+            // 
+            this.tx_current.Location = new System.Drawing.Point(147, 344);
+            this.tx_current.Name = "tx_current";
+            this.tx_current.Size = new System.Drawing.Size(100, 20);
+            this.tx_current.TabIndex = 29;
             // 
             // MsgRouter
             // 
@@ -857,6 +919,7 @@
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.gb_robot.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).EndInit();
@@ -941,6 +1004,13 @@
         private System.Windows.Forms.TextBox tx_ExoPort;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.DataGridView exoGridView;
+        private System.Windows.Forms.TextBox tx_erro_count3;
+        private System.Windows.Forms.TextBox tx_erro_count2;
+        private System.Windows.Forms.TextBox tx_erro_count1;
+        private System.Windows.Forms.TextBox tx_error_comm;
+        private System.Windows.Forms.TextBox tx_battery_remaining;
+        private System.Windows.Forms.TextBox tx_voltage;
+        private System.Windows.Forms.TextBox tx_current;
     }
 }
 

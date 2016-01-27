@@ -150,3 +150,4 @@ C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_ro
 C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Debug\AP_Mavlink_router.exe.licenses
 C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Debug\AP_Mavlink_router.exe
 C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Debug\AP_Mavlink_router.pdb
+C:\Users\usuario\Dropbox\Projetos\EDP\Sistemas\AP_Mavlink_Trimares\AP_Mavlink_router\obj\Debug\AP_Mavlink_router.csprojResolveAssemblyReference.cache

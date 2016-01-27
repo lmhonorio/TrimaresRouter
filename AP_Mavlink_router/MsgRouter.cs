@@ -502,6 +502,29 @@ namespace AP_Mavlink_router
                 //  mavlink_mission_request_list_t pacote = newPacket.ByteArrayToStructure<mavlink_mission_request_list_t>(6);
             }
 
+            if (bytes[5] == MAVLink.MAVLINK_MSG_ID_SYS_STATUS)
+            {
+                MAVLink.mavlink_sys_status_t status = bytes.ByteArrayToStructure<MAVLink.mavlink_sys_status_t>(6);
+                lock (locker)
+                {
+                    this.Invoke((MethodInvoker)delegate ()
+                    {
+                        tx_voltage.Text = status.voltage_battery.ToString();
+                        tx_battery_remaining.Text = status.battery_remaining.ToString();
+                        tx_current.Text = status.current_battery.ToString();
+                        tx_error_comm.Text = status.errors_comm.ToString();
+                        tx_erro_count1.Text = status.errors_count1.ToString();
+                        tx_erro_count2.Text = status.errors_count2.ToString();
+                        tx_erro_count3.Text = status.errors_count3.ToString();
+
+                    });
+                    //listBox1.Invoke(new )
+                    //lat = gps.lat;
+                    //lon = gps.lon;
+                }
+                //  mavlink_mission_request_list_t pacote = newPacket.ByteArrayToStructure<mavlink_mission_request_list_t>(6);
+            }
+
             if (bytes[5] == MAVLink.MAVLINK_MSG_ID_ATTITUDE)
             {
                 MAVLink.mavlink_attitude_t att = bytes.ByteArrayToStructure<MAVLink.mavlink_attitude_t>(6);
