@@ -23,6 +23,7 @@ using System.Net;
 
 using clsExodn;
 using Trimares;
+using AP_Mavlink_router.Camera;
 
 namespace AP_Mavlink_router
 {
@@ -62,7 +63,7 @@ namespace AP_Mavlink_router
         MAVLink TrimaresUDPMavLinkServer;
 
         Sonar.sonarcomm swatch;
-
+        clsCamera trimares_camera;
 
 
 
@@ -86,6 +87,8 @@ namespace AP_Mavlink_router
         BindingList<exo_waterquality> bindinglist;
         BindingSource source;
 
+
+        
 
 
 
@@ -114,6 +117,7 @@ namespace AP_Mavlink_router
                 TCPClientData = new MainCrossData();
                 TCPClientData.myLink.BaseStream.BaudRate = 115200;
 
+                trimares_camera = new clsCamera();
 
                 string[] portnames = MAVcomm.Comms.SerialPort.GetPortNames();
 
@@ -1070,6 +1074,41 @@ namespace AP_Mavlink_router
 
 
         }
+
+        private void bt_camera_Click(object sender, EventArgs e)
+        {
+            if (bt_camera.Text == "CAMERA OFF")
+            {
+                if (trimares_camera.writeByte("0"))
+                    bt_camera.Text = "CAMERA ON";
+            }
+            else
+            {
+                if (trimares_camera.writeByte("0"))
+                    bt_camera.Text = "CAMERA OFF";
+            }
+
+
+        }
+
+        private void bt_video_streaming_Click(object sender, EventArgs e)
+        {
+
+            Process[] p = System.Diagnostics.Process.GetProcessesByName("VSD4Console.exe");
+
+            if (p.Length == 0)
+                MessageBox.Show("teste");
+
+
+            Process firstProc = new Process();
+            firstProc.StartInfo.FileName = "notepad.exe";
+            firstProc.EnableRaisingEvents = true;
+            firstProc.Start();
+
+
+        }
+
+
 
 
 

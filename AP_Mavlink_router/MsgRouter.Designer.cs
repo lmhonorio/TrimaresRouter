@@ -112,6 +112,12 @@
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.bt_camera = new System.Windows.Forms.Button();
+            this.bt_zoom_in = new System.Windows.Forms.Button();
+            this.bt_zoom_out = new System.Windows.Forms.Button();
+            this.bt_take_picture = new System.Windows.Forms.Button();
+            this.bt_video_streaming = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -126,6 +132,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).BeginInit();
             this.gb_robot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.tabPage4.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBox1
@@ -134,7 +141,7 @@
             this.listBox1.Location = new System.Drawing.Point(423, 3);
             this.listBox1.MultiColumn = true;
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(286, 212);
+            this.listBox1.Size = new System.Drawing.Size(286, 381);
             this.listBox1.TabIndex = 1;
             // 
             // bt_server
@@ -162,6 +169,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -891,6 +899,68 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.bt_video_streaming);
+            this.tabPage4.Controls.Add(this.bt_take_picture);
+            this.tabPage4.Controls.Add(this.bt_zoom_out);
+            this.tabPage4.Controls.Add(this.bt_zoom_in);
+            this.tabPage4.Controls.Add(this.bt_camera);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(712, 400);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Camera";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // bt_camera
+            // 
+            this.bt_camera.Location = new System.Drawing.Point(50, 107);
+            this.bt_camera.Name = "bt_camera";
+            this.bt_camera.Size = new System.Drawing.Size(161, 36);
+            this.bt_camera.TabIndex = 0;
+            this.bt_camera.Text = "CAMERA OFF";
+            this.bt_camera.UseVisualStyleBackColor = true;
+            this.bt_camera.Click += new System.EventHandler(this.bt_camera_Click);
+            // 
+            // bt_zoom_in
+            // 
+            this.bt_zoom_in.Location = new System.Drawing.Point(50, 189);
+            this.bt_zoom_in.Name = "bt_zoom_in";
+            this.bt_zoom_in.Size = new System.Drawing.Size(161, 34);
+            this.bt_zoom_in.TabIndex = 1;
+            this.bt_zoom_in.Text = "Zoom +";
+            this.bt_zoom_in.UseVisualStyleBackColor = true;
+            // 
+            // bt_zoom_out
+            // 
+            this.bt_zoom_out.Location = new System.Drawing.Point(50, 229);
+            this.bt_zoom_out.Name = "bt_zoom_out";
+            this.bt_zoom_out.Size = new System.Drawing.Size(161, 34);
+            this.bt_zoom_out.TabIndex = 1;
+            this.bt_zoom_out.Text = "Zoom -";
+            this.bt_zoom_out.UseVisualStyleBackColor = true;
+            // 
+            // bt_take_picture
+            // 
+            this.bt_take_picture.Location = new System.Drawing.Point(50, 301);
+            this.bt_take_picture.Name = "bt_take_picture";
+            this.bt_take_picture.Size = new System.Drawing.Size(161, 34);
+            this.bt_take_picture.TabIndex = 1;
+            this.bt_take_picture.Text = "Tira Foto";
+            this.bt_take_picture.UseVisualStyleBackColor = true;
+            // 
+            // bt_video_streaming
+            // 
+            this.bt_video_streaming.Location = new System.Drawing.Point(50, 45);
+            this.bt_video_streaming.Name = "bt_video_streaming";
+            this.bt_video_streaming.Size = new System.Drawing.Size(161, 35);
+            this.bt_video_streaming.TabIndex = 2;
+            this.bt_video_streaming.Text = "VIDEO STREAMING OFF";
+            this.bt_video_streaming.UseVisualStyleBackColor = true;
+            this.bt_video_streaming.Click += new System.EventHandler(this.bt_video_streaming_Click);
+            // 
             // MsgRouter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -924,6 +994,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).EndInit();
             this.gb_robot.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.tabPage4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1012,6 +1083,12 @@
         private System.Windows.Forms.TextBox tx_battery_remaining;
         private System.Windows.Forms.TextBox tx_voltage;
         private System.Windows.Forms.TextBox tx_current;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Button bt_camera;
+        private System.Windows.Forms.Button bt_take_picture;
+        private System.Windows.Forms.Button bt_zoom_out;
+        private System.Windows.Forms.Button bt_zoom_in;
+        private System.Windows.Forms.Button bt_video_streaming;
     }
 }
 

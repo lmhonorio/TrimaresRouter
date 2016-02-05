@@ -100,6 +100,7 @@
     </Compile>
     <Compile Include="Attributes\DisplayTextAttribute.cs" />
     <Compile Include="Attributes\PrivateAttribute.cs" />
+    <Compile Include="Camera\clsCamera.cs" />
     <Compile Include="Comms\BaseFiles\Common.cs" />
     <Compile Include="Comms\BaseFiles\CommsBase.cs" />
     <Compile Include="Comms\BaseFiles\CommsFile.cs" />
