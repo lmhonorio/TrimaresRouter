@@ -93,7 +93,8 @@ namespace MAVcomm.Comms
         {
            
             new Thread(new ThreadStart(startopen)){
-                Priority = ThreadPriority.BelowNormal}.Start();
+                Priority = ThreadPriority.BelowNormal,
+            IsBackground = true}.Start();
 
 
         }
@@ -152,6 +153,7 @@ namespace MAVcomm.Comms
         private void startReceive()
         {
             receiveThread = new Thread(new ThreadStart(receive));
+            receiveThread.IsBackground = true;
             receiveThread.Start();
         }
 
@@ -384,6 +386,7 @@ namespace MAVcomm.Comms
         public void StartSendingHB()
         {
             shb = new Thread(sendingHB);
+            shb.IsBackground = true;
             shb.Start();
 
         }

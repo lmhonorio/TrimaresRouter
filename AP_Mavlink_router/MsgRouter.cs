@@ -149,10 +149,14 @@ namespace AP_Mavlink_router
         }
 
         #region CONECCOES
-
+        Thread tstartExoMonitorThread; 
         private void bt_ExoMonitor_Click(object sender, EventArgs e)
         {
-            new Thread(startExoMonitorConn).Start();
+            tstartExoMonitorThread = new Thread(startExoMonitorConn)
+            {
+                IsBackground = true,
+            };
+            tstartExoMonitorThread.Start();
         }
         
         /// <summary>
@@ -162,7 +166,9 @@ namespace AP_Mavlink_router
         /// <param name="e"></param>
         private void bt_server_Click(object sender, EventArgs e)
         {
-            new Thread(startMissionPlannerConn).Start();          
+            new Thread(startMissionPlannerConn) {
+            IsBackground = true,
+            }.Start();          
         }
 
 
@@ -174,6 +180,7 @@ namespace AP_Mavlink_router
         private void bt_trimares_Click(object sender, EventArgs e)
         {
             tstartTrimaresConn = new System.Threading.Thread(startTrimaresConn);
+            tstartTrimaresConn.IsBackground = true;
             tstartTrimaresConn.Start();
         }
 
@@ -186,12 +193,13 @@ namespace AP_Mavlink_router
         private void bt_udp_Click(object sender, EventArgs e)
         {
             tstartmyServerConn = new System.Threading.Thread(startmyServerConn);
+            tstartmyServerConn.IsBackground = true;
             tstartmyServerConn.Start();
         }
       
 
 
-        private void bt_exotest_Click(object sender, EventArgs e)
+        private void bt_startReading_Click(object sender, EventArgs e)
         {
 
             try
@@ -199,6 +207,7 @@ namespace AP_Mavlink_router
                 if (ExoReadings == null)
                 {
                     tstartExoReadings = new System.Threading.Thread(startExoReadings);
+                    tstartExoReadings.IsBackground = true;
                     tstartExoReadings.Start();
                 }
 
@@ -242,6 +251,7 @@ namespace AP_Mavlink_router
         {
 
                 tstartTrimaresConn = new System.Threading.Thread(startAPMsimulation);
+                tstartTrimaresConn.IsBackground = true;
                 tstartTrimaresConn.Start();
               
                // bg_missionplanner.Enabled = false;
@@ -712,6 +722,7 @@ namespace AP_Mavlink_router
                     lastexo = current;
                     Treadings = new System.Threading.Thread(new System.Threading.ParameterizedThreadStart(SendingReadings));
                     Treadings.Priority = System.Threading.ThreadPriority.Highest;
+                    Treadings.IsBackground = true;
                     Treadings.Start(lastexo);
 
                 }
@@ -891,6 +902,7 @@ namespace AP_Mavlink_router
                 closeThread(tstartTrimaresConn);
                 closeThread(tstartExoReadings);
                 closeThread(Treadings);
+                closeThread(tstartExoMonitorThread);
 
 
                 if (TCPClientConn != null)
@@ -902,8 +914,7 @@ namespace AP_Mavlink_router
 
                 if (TCPMavLinkClient != null)
                     TCPMavLinkClient = null;
-
-                            
+                           
 
                 if (TrimaresUDPServerConn != null)
                     TrimaresUDPServerConn = null;
@@ -928,9 +939,11 @@ namespace AP_Mavlink_router
             {
                 if (t != null)
                 {
+               
                     t.Abort();
                     Thread.Sleep(100);
                     t = null;
+                    
                 }
             }
             catch { }
@@ -1041,6 +1054,20 @@ namespace AP_Mavlink_router
 
         private void MsgRouter_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void bt_stopReadings_Click(object sender, EventArgs e)
+        {
+            if (tstartExoReadings != null)
+                tstartExoReadings.Abort();
+
+            Thread.Sleep(100);
+
+            if (ExoReadings != null)
+                ExoReadings.stopReadings();
+
+
 
         }
 

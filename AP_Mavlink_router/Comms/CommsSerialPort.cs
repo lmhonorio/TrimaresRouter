@@ -152,6 +152,7 @@ namespace MAVcomm.Comms
         public void StartSendingHB()
         {
             shb = new Thread(sendingHB);
+            shb.IsBackground = true;
             shb.Start();
 
         }

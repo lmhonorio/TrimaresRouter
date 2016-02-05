@@ -20,11 +20,11 @@ namespace MAVcomm.Comms
         IPEndPoint RemoteIpEndPoint;// = new IPEndPoint(IPAddress.Any, 0);
         object myKey = new object();
         Socket s;
-        TcpListener listener;
+        //TcpListener listener;
 
         public bool oktoReceive = false;
         private Thread receiveThread;
-        private Thread sendThread;
+        //private Thread sendThread;
         private Thread startThread;
 
         string dest;
@@ -55,6 +55,7 @@ namespace MAVcomm.Comms
         private void startReceive()
         {
             receiveThread = new Thread(new ThreadStart(receive));
+            receiveThread.IsBackground = true;
             receiveThread.Start();
         }
 
@@ -87,6 +88,7 @@ namespace MAVcomm.Comms
         private void start()
         {
             startThread = new Thread(new ThreadStart(startServer));
+            startThread.IsBackground = true;
             startThread.Start();
         }
 

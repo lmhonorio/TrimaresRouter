@@ -51,6 +51,7 @@ namespace MAVcomm.Comms
         private void start() 
         {
             startThread = new Thread(new ThreadStart(startServer));
+            startThread.IsBackground = true;
             startThread.Start();
         }
 
@@ -95,6 +96,7 @@ namespace MAVcomm.Comms
         private void startReceive()
         {
             receiveThread = new Thread(new ThreadStart(receive));
+            receiveThread.IsBackground = true;
             receiveThread.Start();
         }
 
@@ -102,6 +104,7 @@ namespace MAVcomm.Comms
         public void startSending(byte[] msg)
         {
             sendThread = new Thread(new ParameterizedThreadStart(send));
+            sendThread.IsBackground = true;
             sendThread.Start(msg);
         }
 
@@ -513,6 +516,7 @@ namespace MAVcomm.Comms
         public void StartSendingHB()
         {
             shb = new Thread(sendingHB);
+            shb.IsBackground = true;
             shb.Start();
 
         }

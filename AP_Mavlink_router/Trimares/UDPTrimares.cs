@@ -38,6 +38,7 @@ namespace Trimares
         public void startConnection(long maxDeltaT)
         {
             connecThread = new Thread(new ParameterizedThreadStart(Connectto3Mares));
+            connecThread.IsBackground = true;
             connecThread.Start((object)maxDeltaT);
         }
 
@@ -45,12 +46,14 @@ namespace Trimares
         public void startReceive()
         {
             receiveThread = new Thread(new ThreadStart(receive));
+            receiveThread.IsBackground = true;
             receiveThread.Start();
         }
 
         public void startSending(string msg)
         {
             sendThread = new Thread(new ParameterizedThreadStart(send));
+            sendThread.IsBackground = true;
             sendThread.Start(msg);
 
         }

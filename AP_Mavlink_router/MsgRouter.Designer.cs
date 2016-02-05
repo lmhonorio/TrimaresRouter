@@ -95,23 +95,23 @@
             this.tx_depth = new System.Windows.Forms.TextBox();
             this.tx_id = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.bt_exotest = new System.Windows.Forms.Button();
+            this.bt_stopReadings = new System.Windows.Forms.Button();
+            this.bt_startReadings = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tx_current = new System.Windows.Forms.TextBox();
+            this.tx_erro_count3 = new System.Windows.Forms.TextBox();
+            this.tx_erro_count2 = new System.Windows.Forms.TextBox();
+            this.tx_erro_count1 = new System.Windows.Forms.TextBox();
+            this.tx_error_comm = new System.Windows.Forms.TextBox();
+            this.tx_battery_remaining = new System.Windows.Forms.TextBox();
+            this.tx_voltage = new System.Windows.Forms.TextBox();
+            this.exoGridView = new System.Windows.Forms.DataGridView();
             this.gb_robot = new System.Windows.Forms.GroupBox();
             this.cbCType = new System.Windows.Forms.ComboBox();
             this.bt_conectar = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.exoGridView = new System.Windows.Forms.DataGridView();
-            this.tx_voltage = new System.Windows.Forms.TextBox();
-            this.tx_battery_remaining = new System.Windows.Forms.TextBox();
-            this.tx_error_comm = new System.Windows.Forms.TextBox();
-            this.tx_erro_count1 = new System.Windows.Forms.TextBox();
-            this.tx_erro_count2 = new System.Windows.Forms.TextBox();
-            this.tx_erro_count3 = new System.Windows.Forms.TextBox();
-            this.tx_current = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -123,9 +123,9 @@
             this.tabPage3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).BeginInit();
             this.gb_robot.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // listBox1
@@ -485,8 +485,8 @@
             this.groupBox4.Controls.Add(this.tx_depth);
             this.groupBox4.Controls.Add(this.tx_id);
             this.groupBox4.Controls.Add(this.button3);
-            this.groupBox4.Controls.Add(this.button1);
-            this.groupBox4.Controls.Add(this.bt_exotest);
+            this.groupBox4.Controls.Add(this.bt_stopReadings);
+            this.groupBox4.Controls.Add(this.bt_startReadings);
             this.groupBox4.Location = new System.Drawing.Point(6, 6);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(558, 332);
@@ -753,24 +753,25 @@
             this.button3.Text = "Clear Buffer";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // bt_stopReadings
             // 
-            this.button1.Location = new System.Drawing.Point(151, 288);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 30);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Stop";
-            this.button1.UseVisualStyleBackColor = true;
+            this.bt_stopReadings.Location = new System.Drawing.Point(151, 288);
+            this.bt_stopReadings.Name = "bt_stopReadings";
+            this.bt_stopReadings.Size = new System.Drawing.Size(77, 30);
+            this.bt_stopReadings.TabIndex = 1;
+            this.bt_stopReadings.Text = "Stop";
+            this.bt_stopReadings.UseVisualStyleBackColor = true;
+            this.bt_stopReadings.Click += new System.EventHandler(this.bt_stopReadings_Click);
             // 
-            // bt_exotest
+            // bt_startReadings
             // 
-            this.bt_exotest.Location = new System.Drawing.Point(148, 243);
-            this.bt_exotest.Name = "bt_exotest";
-            this.bt_exotest.Size = new System.Drawing.Size(263, 30);
-            this.bt_exotest.TabIndex = 0;
-            this.bt_exotest.Text = "Start Readings";
-            this.bt_exotest.UseVisualStyleBackColor = true;
-            this.bt_exotest.Click += new System.EventHandler(this.bt_exotest_Click);
+            this.bt_startReadings.Location = new System.Drawing.Point(148, 243);
+            this.bt_startReadings.Name = "bt_startReadings";
+            this.bt_startReadings.Size = new System.Drawing.Size(263, 30);
+            this.bt_startReadings.TabIndex = 0;
+            this.bt_startReadings.Text = "Start Readings";
+            this.bt_startReadings.UseVisualStyleBackColor = true;
+            this.bt_startReadings.Click += new System.EventHandler(this.bt_startReading_Click);
             // 
             // tabPage2
             // 
@@ -790,6 +791,63 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Trimares";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tx_current
+            // 
+            this.tx_current.Location = new System.Drawing.Point(147, 344);
+            this.tx_current.Name = "tx_current";
+            this.tx_current.Size = new System.Drawing.Size(100, 20);
+            this.tx_current.TabIndex = 29;
+            // 
+            // tx_erro_count3
+            // 
+            this.tx_erro_count3.Location = new System.Drawing.Point(435, 345);
+            this.tx_erro_count3.Name = "tx_erro_count3";
+            this.tx_erro_count3.Size = new System.Drawing.Size(100, 20);
+            this.tx_erro_count3.TabIndex = 28;
+            // 
+            // tx_erro_count2
+            // 
+            this.tx_erro_count2.Location = new System.Drawing.Point(435, 319);
+            this.tx_erro_count2.Name = "tx_erro_count2";
+            this.tx_erro_count2.Size = new System.Drawing.Size(100, 20);
+            this.tx_erro_count2.TabIndex = 28;
+            // 
+            // tx_erro_count1
+            // 
+            this.tx_erro_count1.Location = new System.Drawing.Point(435, 292);
+            this.tx_erro_count1.Name = "tx_erro_count1";
+            this.tx_erro_count1.Size = new System.Drawing.Size(100, 20);
+            this.tx_erro_count1.TabIndex = 28;
+            // 
+            // tx_error_comm
+            // 
+            this.tx_error_comm.Location = new System.Drawing.Point(329, 293);
+            this.tx_error_comm.Name = "tx_error_comm";
+            this.tx_error_comm.Size = new System.Drawing.Size(100, 20);
+            this.tx_error_comm.TabIndex = 27;
+            // 
+            // tx_battery_remaining
+            // 
+            this.tx_battery_remaining.Location = new System.Drawing.Point(147, 318);
+            this.tx_battery_remaining.Name = "tx_battery_remaining";
+            this.tx_battery_remaining.Size = new System.Drawing.Size(100, 20);
+            this.tx_battery_remaining.TabIndex = 27;
+            // 
+            // tx_voltage
+            // 
+            this.tx_voltage.Location = new System.Drawing.Point(147, 292);
+            this.tx_voltage.Name = "tx_voltage";
+            this.tx_voltage.Size = new System.Drawing.Size(100, 20);
+            this.tx_voltage.TabIndex = 27;
+            // 
+            // exoGridView
+            // 
+            this.exoGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.exoGridView.Location = new System.Drawing.Point(6, 6);
+            this.exoGridView.Name = "exoGridView";
+            this.exoGridView.Size = new System.Drawing.Size(698, 262);
+            this.exoGridView.TabIndex = 26;
             // 
             // gb_robot
             // 
@@ -833,63 +891,6 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
             // 
-            // exoGridView
-            // 
-            this.exoGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.exoGridView.Location = new System.Drawing.Point(6, 6);
-            this.exoGridView.Name = "exoGridView";
-            this.exoGridView.Size = new System.Drawing.Size(698, 262);
-            this.exoGridView.TabIndex = 26;
-            // 
-            // tx_voltage
-            // 
-            this.tx_voltage.Location = new System.Drawing.Point(147, 292);
-            this.tx_voltage.Name = "tx_voltage";
-            this.tx_voltage.Size = new System.Drawing.Size(100, 20);
-            this.tx_voltage.TabIndex = 27;
-            // 
-            // tx_battery_remaining
-            // 
-            this.tx_battery_remaining.Location = new System.Drawing.Point(147, 318);
-            this.tx_battery_remaining.Name = "tx_battery_remaining";
-            this.tx_battery_remaining.Size = new System.Drawing.Size(100, 20);
-            this.tx_battery_remaining.TabIndex = 27;
-            // 
-            // tx_error_comm
-            // 
-            this.tx_error_comm.Location = new System.Drawing.Point(329, 293);
-            this.tx_error_comm.Name = "tx_error_comm";
-            this.tx_error_comm.Size = new System.Drawing.Size(100, 20);
-            this.tx_error_comm.TabIndex = 27;
-            // 
-            // tx_erro_count1
-            // 
-            this.tx_erro_count1.Location = new System.Drawing.Point(435, 292);
-            this.tx_erro_count1.Name = "tx_erro_count1";
-            this.tx_erro_count1.Size = new System.Drawing.Size(100, 20);
-            this.tx_erro_count1.TabIndex = 28;
-            // 
-            // tx_erro_count2
-            // 
-            this.tx_erro_count2.Location = new System.Drawing.Point(435, 319);
-            this.tx_erro_count2.Name = "tx_erro_count2";
-            this.tx_erro_count2.Size = new System.Drawing.Size(100, 20);
-            this.tx_erro_count2.TabIndex = 28;
-            // 
-            // tx_erro_count3
-            // 
-            this.tx_erro_count3.Location = new System.Drawing.Point(435, 345);
-            this.tx_erro_count3.Name = "tx_erro_count3";
-            this.tx_erro_count3.Size = new System.Drawing.Size(100, 20);
-            this.tx_erro_count3.TabIndex = 28;
-            // 
-            // tx_current
-            // 
-            this.tx_current.Location = new System.Drawing.Point(147, 344);
-            this.tx_current.Name = "tx_current";
-            this.tx_current.Size = new System.Drawing.Size(100, 20);
-            this.tx_current.TabIndex = 29;
-            // 
             // MsgRouter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -920,9 +921,9 @@
             this.groupBox4.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).EndInit();
             this.gb_robot.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.exoGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -997,8 +998,8 @@
         private System.Windows.Forms.TextBox tx_depth;
         private System.Windows.Forms.TextBox tx_id;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button bt_exotest;
+        private System.Windows.Forms.Button bt_stopReadings;
+        private System.Windows.Forms.Button bt_startReadings;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button bt_ExoMonitor;
         private System.Windows.Forms.TextBox tx_ExoPort;
